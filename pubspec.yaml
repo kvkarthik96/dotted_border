@@ -1,7 +1,8 @@
 name: dotted_separator
 description: A Flutter package that provides a customizable DottedSeparator widget that can be used to create a dotted line separator with adjustable color and dash width.
 version: 0.0.1
-homepage:
+
+repository: https://github.com/kvkarthik96/dotted_border.git
 
 environment:
   sdk: '>=3.0.6 <4.0.0'
