@@ -1,5 +1,5 @@
 name: dotted_separator
-description: A new Flutter package project.
+description: A Flutter package that provides a customizable DottedSeparator widget that can be used to create a dotted line separator with adjustable color and dash width.
 version: 0.0.1
 homepage:
 
