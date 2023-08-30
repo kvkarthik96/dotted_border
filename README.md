@@ -85,4 +85,3 @@ If you encounter any issues or would like to contribute to this package, please 
 ## License
 
 This package is released under the [MIT License](https://opensource.org/licenses/MIT).
-```
