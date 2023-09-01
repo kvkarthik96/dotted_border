@@ -6,6 +6,6 @@
 
 * Updated README.md 
 
-## 0.0.1
+## 1.0.0
 
 * A Flutter package that provides a customizable Dotted Separator and Dotted widgets.
