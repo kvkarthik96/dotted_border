@@ -1,8 +1,6 @@
 library dotted_separator;
 
-import 'package:flutter/material.dart';
-
-import 'custom_line_painter.dart';
+import 'package:dotted_separator/dotted_separator.dart';
 
 class DottedSeparator extends StatelessWidget {
   //The height of the widget.

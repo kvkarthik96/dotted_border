@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:flutter/material.dart';
+import 'package:dotted_separator/dotted_separator.dart';
 
 class DottedDecoration extends Decoration {
   final LinePosition linePosition;

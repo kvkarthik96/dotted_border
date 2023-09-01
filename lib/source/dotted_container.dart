@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import 'dotted_decoration.dart';
+import 'package:dotted_separator/dotted_separator.dart';
 
 class DottedContainer extends StatelessWidget {
   final double height;

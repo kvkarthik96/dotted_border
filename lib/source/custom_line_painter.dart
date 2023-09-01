@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:dotted_separator/dotted_separator.dart';
 
 class CustomLinePainter extends CustomPainter {
   final double dashWidth;
