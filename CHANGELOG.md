@@ -25,3 +25,7 @@
 ## 1.0.4
 
 * Updated screenshot.
+
+## 1.0.4
+
+* Formatted dart file.

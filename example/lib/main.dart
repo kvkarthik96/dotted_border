@@ -1,4 +1,3 @@
-
 import 'package:dotted_separator/dotted_separator.dart';
 
 void main() {

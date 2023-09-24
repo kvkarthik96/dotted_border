@@ -18,12 +18,12 @@ import 'package:dotted_separator/dotted_separator.dart';
 class DashedLine extends StatelessWidget {
   /// The axis along which the dashed line should be drawn.
   /// [axis] values can be [Axis.horizontal] or [Axis.vertical]
-  /// Use [Axis.horizontal] to draw a horizontal dashed line 
+  /// Use [Axis.horizontal] to draw a horizontal dashed line
   /// Use [Axis.vertical] to draw a vertical dashed line.
   final Axis axis;
 
   /// The color of the dashed line.
-  /// [color] value should be given 
+  /// [color] value should be given
   final Color color;
 
   /// The space between dashes in the line.
@@ -35,7 +35,7 @@ class DashedLine extends StatelessWidget {
   /// The thickness of the dashed line.
   final double strokeWidth;
 
-  /// The padding around the dashed line. 
+  /// The padding around the dashed line.
   final EdgeInsetsGeometry padding;
 
   /// The width of the dashed line widget.
