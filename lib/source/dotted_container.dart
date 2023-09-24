@@ -12,6 +12,8 @@ class DottedContainer extends StatelessWidget {
   final Widget? child;
   final EdgeInsetsGeometry? padding;
   final EdgeInsetsGeometry? margin;
+  final Color? fillColor;
+  final DecorationImage? decorationImage;
 
   const DottedContainer(
       {super.key,
@@ -25,7 +27,9 @@ class DottedContainer extends StatelessWidget {
       this.strokeWidth = 1,
       this.child,
       this.padding,
-      this.margin});
+      this.margin,
+      this.fillColor = Colors.transparent,
+      this.decorationImage});
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +46,14 @@ class DottedContainer extends StatelessWidget {
         borderRadius: borderRadius,
         strokeWidth: strokeWidth,
       ),
-      child: child,
+      child: Container(
+          decoration: BoxDecoration(
+              borderRadius: shape == Shape.circle
+                  ? BorderRadius.circular(height)
+                  : borderRadius,
+              color: fillColor,
+              image: decorationImage),
+          child: child),
     );
   }
 }

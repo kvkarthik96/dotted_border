@@ -12,7 +12,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  dotter_separator: ^1.0.1
+  dotter_separator: ^1.0.2
 ```
 
 Then run `flutter pub get` to install the package.
@@ -37,7 +37,7 @@ Use the `DottedSeparator` widget to create a dotted line separator:
       strokeWidth: 1.5,
       dashColor: Colors.black,
       padding: EdgeInsets.symmetric(vertical: 8),
-    )     
+    ),     
 ```
 
 In this example, the `DottedSeparator` widget is used to create a horizontal dotted line separator. You can customize its appearance by adjusting the `height`, `width`, `axis`, `dashWidth`, `dashSpace`, `strokeWidth`, `dashColor`, and `padding` properties.
@@ -69,7 +69,7 @@ In this example, the `DottedSeparator` widget is used to create a horizontal dot
           style: TextStyle(fontSize: 16),
         ),
       ),
-    )
+    ),
 ```
 
 In this example, the `DottedContainer` widget is used to create a container with a dotted border. You can customize its appearance by adjusting the `height`, `width`, `linePosition`, `shape`, `color`, `borderRadius`, `dash`, `strokeWidth`, and `child` properties.

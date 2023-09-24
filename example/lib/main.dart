@@ -1,6 +1,5 @@
 
 import 'package:dotted_separator/dotted_separator.dart';
-import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,10 +52,18 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const Text(
               'Horizontal dashed line',
-              style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
+              style: TextStyle(
+                  fontWeight: FontWeight.w600,
+                  fontSize: 16,
+                  color: Colors.blue),
             ),
             const DottedSeparator(
-                height: 20, width: double.infinity, axis: Axis.horizontal),
+              height: 20,
+              width: double.infinity,
+              axis: Axis.horizontal,
+              dashColor: Colors.black,
+              dashSpace: 4,
+            ),
             const SizedBox(height: 30),
             const Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -66,11 +73,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 100,
                   width: 10,
                   axis: Axis.vertical,
-                  dashSpace: 3,
+                  dashColor: Colors.black,
+                  dashSpace: 4,
                 ),
                 Text(
                   'Vertical dashed line',
-                  style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
+                  style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 16,
+                      color: Colors.blue),
                 ),
                 DottedSeparator(
                   height: 100,
@@ -82,14 +93,19 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
             const SizedBox(height: 30),
-            const Row(
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                DottedContainer(
+                const DottedContainer(
                   height: 100,
                   width: 150,
                   shape: Shape.box,
                   color: Colors.blue,
+                  dash: [6, 2],
+                  strokeWidth: 3,
+                  decorationImage: DecorationImage(
+                      image: AssetImage('assets/bg_image.png'),
+                      fit: BoxFit.cover),
                   child: Center(
                     child: Text(
                       'Rectangle',
@@ -105,8 +121,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 100,
                   width: 100,
                   shape: Shape.box,
-                  color: Colors.black,
-                  child: Center(
+                  color: Colors.red,
+                  fillColor: Colors.red.withOpacity(0.2),
+                  child: const Center(
                     child: Text(
                       'Square',
                       style: TextStyle(
@@ -129,6 +146,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   shape: Shape.box,
                   color: Colors.red,
                   borderRadius: BorderRadius.circular(15),
+                  fillColor: Colors.red.withOpacity(0.2),
                   child: const Center(
                     child: Text(
                       'Rounded Box',
@@ -139,18 +157,24 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ),
                 ),
-                const DottedContainer(
+                DottedContainer(
                   height: 100,
                   width: 100,
                   shape: Shape.circle,
-                  color: Colors.green,
-                  child: Center(
+                  fillColor: Colors.green.withOpacity(0.2),
+                  dash: const [6, 2],
+                  strokeWidth: 3,
+                  decorationImage: const DecorationImage(
+                    image: AssetImage('assets/bg_image.png'),
+                    fit: BoxFit.cover,
+                  ),
+                  child: const Center(
                     child: Text(
                       'Circle',
                       style: TextStyle(
                           fontWeight: FontWeight.w600,
                           fontSize: 16,
-                          color: Colors.green),
+                          color: Colors.black),
                     ),
                   ),
                 ),
