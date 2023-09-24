@@ -53,10 +53,10 @@ packages:
     dependency: "direct main"
     description:
       name: dotted_separator
-      sha256: e2c5d17aa4a9462bef30f788d9c38ae64ef50b1a909116bf483d04cd9cd049d2
+      sha256: fb37a35a2fdb086a8a9a73effd2d0c64a18f94196756414619bc9425b018e418
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.2"
   fake_async:
     dependency: transitive
     description:
