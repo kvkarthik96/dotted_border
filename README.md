@@ -12,7 +12,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  dotter_separator: ^1.0.2
+  dotter_separator: ^1.0.4
 ```
 
 Then run `flutter pub get` to install the package.

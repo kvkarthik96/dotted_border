@@ -17,3 +17,11 @@
 ## 1.0.2
 
 * Added decoration options for the dotted widget.
+
+## 1.0.3
+
+* Added dartdoc comments.
+
+## 1.0.4
+
+* Updated screenshot.
