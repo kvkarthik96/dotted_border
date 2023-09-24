@@ -29,3 +29,8 @@
 ## 1.0.5
 
 * Formatted dart file.
+
+
+## 1.0.6
+
+* Provided documentation

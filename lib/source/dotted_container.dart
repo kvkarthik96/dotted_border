@@ -46,11 +46,10 @@ class DottedContainer extends StatelessWidget {
   final BorderRadius borderRadius;
 
   /// [dash] defines the dash pattern for the dotted decoration.
-  /// Default [dash] value is [4, 4].
   final List<int> dash;
 
   /// [strokeWidth] defines the stroke width of the dotted decoration.
-  /// Default [strokeWidth] value is [1].
+  /// Default [strokeWidth] value is 1.
   final double strokeWidth;
 
   /// The [child] widget to be placed inside the container.

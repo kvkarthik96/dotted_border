@@ -18,14 +18,10 @@ class CustomLinePainter extends CustomPainter {
   /// [color] defines the color of the dashed line.
   final Color color;
 
-  /// The space between dashes in the line.
-  /// [dashSpace] value is used calculate [startX] value if the [axis] is [Axis.horizontal].
-  /// [dashSpace] value is used calculate [startY] value if the [axis] is [Axis.vertical].
+  /// [dashSpace] defines the space between dashes in the line.
   final double dashSpace;
 
-  /// The width of each dash in the line.
-  /// [dashWidth] value is used calculate [startX] value if the [axis] is [Axis.horizontal].
-  /// [dashWidth] value is used calculate [startY] value if the [axis] is [Axis.vertical].
+  /// [dashWidth] defines the width of each dash in the line.
   final double dashWidth;
 
   /// [strokeWidth] defines the thinkness of the dashed line.

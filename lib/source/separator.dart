@@ -1,5 +1,3 @@
-library dotted_separator;
-
 import 'package:dotted_separator/dotted_separator.dart';
 
 /// A widget that creates a custom-drawn dashed line.
